@@ -1,17 +1,13 @@
 #include <stdio.h>
 
-/*
+/**
+ * main - starting point
  *
- *
- * start by main
- *
- *
- * return 0 of worked
- *
+ * Return: always 0 if succeed
  */
 
-int main (void) 
+int main(void)
 {
-	puts ("\"Programming is like building a multilingual puzzle\n") ;
-	return (0) ;
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
