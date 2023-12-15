@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
- * main - the starting point of executing
+/**
+ * main - the starting point of program
  *
  * Return: 0 when executed
  */

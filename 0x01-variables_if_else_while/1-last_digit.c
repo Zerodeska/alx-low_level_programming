@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there */
 
 /**
- * main - starting point of program
+ * Main: starting point of program
  *
  * Return: 0 when executed
  */
