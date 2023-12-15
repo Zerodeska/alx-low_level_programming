@@ -3,7 +3,7 @@
 /**
  * main - starting point of program
  *
- * Returb: always 0 when succeed
+ * Return: always 0 when succeed
  */
 
 int main(void)
