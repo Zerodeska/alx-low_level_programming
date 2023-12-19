@@ -6,12 +6,15 @@
  * Return: 0 always when executed
  */
 
-void print_alphabet(void);
-
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet ();
-	return (0);
+	int i;
+	char c = 'a';
+
+	for (i = 0; i < 26; i++)
+	{
+		_putchar(c);
+		c++;
+	}
+	_putchar('\n');
 }
-
-
