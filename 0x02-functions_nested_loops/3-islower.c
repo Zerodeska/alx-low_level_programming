@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * _islower - cheaks if the char is lowercase or not
+ * _islower - checks if the char is lowercase or not
  *
- * Return: 0 whaen lower 1 if else
+ * Return: 0 when lower , 1 if else
  *
- * c - the value of char
+ * @c: i char to be checked
+ *
  */
 
 int _islower(int c)
