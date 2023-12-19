@@ -20,9 +20,9 @@ void print_alphabet(void)
 	int i;
 	for (i = 0; i < 26; i++)
 	{
-		putchar(c);
+		_putchar(c);
 		c++;
 	}
-	putchar ('\n');
+	_putchar ('\n');
 }
 
