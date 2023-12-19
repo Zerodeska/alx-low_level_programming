@@ -17,7 +17,8 @@ int main(void)
 void print_alphabet(void)
 {
 	char c = 'a';
-	for (int i = 0; i < 26; i++)
+	int i;
+	for (i = 0; i < 26; i++)
 	{
 		putchar(c);
 		c++;
