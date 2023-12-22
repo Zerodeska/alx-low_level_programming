@@ -1,6 +1,10 @@
 #include "main.h"
 
-
+/**
+ * print_line - prints lines as passed parameters
+ *
+ * @n: length of line
+ */
 
 void print_line(int n)
 {
