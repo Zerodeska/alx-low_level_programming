@@ -3,8 +3,6 @@
 /**
  * rev_string - it reverse string without printing
  *
- * the main function will print the reversed string;
- *
  * @s: passed string
  */
 
@@ -21,6 +19,7 @@ void rev_string(char *s)
 	while (j > i)
 	{
 		char temp;
+
 		temp = s[i];
 		s[i] = s[j];
 		s[j] = temp;
