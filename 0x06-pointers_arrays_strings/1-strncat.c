@@ -8,6 +8,8 @@
  * @src: the second one
  *
  * @n: the number needed to pass
+ *
+ * Return: the concatenated string
  */
 
 char *_strncat(char *dest, char *src, int n)
