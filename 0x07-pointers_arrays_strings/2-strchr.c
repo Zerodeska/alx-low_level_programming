@@ -7,7 +7,7 @@
  *
  * @c: passed letter to print from
  *
- * Retrun: f
+ * Return: will be the address of passed letter
  */
 
 char *_strchr(char *s, char c)
