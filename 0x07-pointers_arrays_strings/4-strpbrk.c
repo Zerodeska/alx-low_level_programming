@@ -22,15 +22,10 @@ char *_strpbrk(char *s, char *accept)
 		while (accept[n] != '\0')
 		{
 			if (s[i] == accept[n])
-				break;
+				return (s + i);
 			n++;
 		}
-		if (s[i] == accept[n])
-			break;
 		i++;
 	}
-	if (s[i] == accept[n])
-		return (s + i);
-	else
-		return ('\0');
+	return ('\0');
 }
