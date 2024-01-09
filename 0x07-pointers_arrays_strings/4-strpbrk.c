@@ -24,7 +24,7 @@ char *_strpbrk(char *s, char *accept)
 			if (s[i] == accept[n])
 			{
 				pos++;
-				break ;
+				break;
 			}
 			n++;
 		}
