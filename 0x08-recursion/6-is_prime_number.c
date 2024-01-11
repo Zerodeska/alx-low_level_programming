@@ -28,6 +28,8 @@ int is_prime_number(int n)
  */
 int _test(int c, int v)
 {
+	if (c < 0)
+		c = -c;
 	if (c % v == 0)
 		return (0);
 	if (v > c / 2)
