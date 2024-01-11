@@ -1,7 +1,7 @@
 #include "main.h"
 int _test(int c, int v);
 /**
- * _sqrt_recursion _ - returns the sqrt
+ * _sqrt_recursion - returns the sqrt
  *
  * @n: passed number
  *
@@ -9,13 +9,13 @@ int _test(int c, int v);
  */
 int _sqrt_recursion(int n)
 {
+	int x;
+
 	if (n < 0)
 		return (-1);
-	else
-	{
-		int x = _test(n, 0);
-		return x;
-	}
+	x = _test(n, 0);
+	return (x);
+
 }
 /**
  * _test - determines the sqr
@@ -31,7 +31,7 @@ int _test(int c, int v)
 	if (v * v == c)
 		return (v);
 	else if (v * v != c && v < c)
-		return _test(c, v + 1);
+		return (_test(c, v + 1));
 	else
 		return (-1);
 }
