@@ -13,7 +13,7 @@ int is_prime_number(int n)
 {
 	int x;
 
-	if (n == 0 || n == 1 || n == -1)
+	if (n <= 1)
 		return (0);
 	x = _test(n, 2);
 	return (x);
@@ -28,9 +28,7 @@ int is_prime_number(int n)
  */
 int _test(int c, int v)
 {
-	if (c < 0)
-		c = -c;
-	if (c % v == 0)
+	if (c % v == 0 && c > v)
 		return (0);
 	if (v > c / 2)
 		return (1);
