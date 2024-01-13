@@ -27,6 +27,8 @@ int main(int argc, char **argv)
  */
 int _change(int i)
 {
+	if (i < 0)
+		return (0);
 	if (i >= 25)
 		return (i / 25 + _change(i % 25));
 	else if (i >= 10)
