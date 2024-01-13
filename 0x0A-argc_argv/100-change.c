@@ -1,12 +1,10 @@
 #include "main.h"
-int _change(int i);
 /**
  * main - begining of program
  * @argc: number of arguments
  * @argv: passed strings
  * Return: 0 when success
  */
-
 int main(int argc, char **argv)
 {
 	int y;
@@ -22,8 +20,8 @@ int main(int argc, char **argv)
 }
 /**
  * _change - working function
- * @i: passed arg
- * Return: recursion method
+ * @i: passed first
+ * Return: always recursion
  */
 int _change(int i)
 {
@@ -31,10 +29,12 @@ int _change(int i)
 		return (0);
 	if (i >= 25)
 		return (i / 25 + _change(i % 25));
-	else if (i >= 10)
+	if (i >= 10 && i < 25)
 		return (i / 10 + _change(i % 10));
-	else if (i >= 5)
+	if (i >= 5 && i < 10)
 		return (i / 5 + _change(i % 5));
+	if (i >= 2 && i < 5)
+		return (i / 2 + _change(i % 2));
 	else
 		return (i);
 }
