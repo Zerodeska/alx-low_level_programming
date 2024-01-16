@@ -11,7 +11,7 @@ char *p;
 unsigned int i = 0;
 
 p = malloc(sizeof(char) * size);
-if (size == 0 && p == NULL)
+if (size == 0)
 return NULL;
 while (i < size)
 {    
