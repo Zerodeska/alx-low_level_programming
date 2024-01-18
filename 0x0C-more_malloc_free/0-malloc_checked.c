@@ -3,6 +3,7 @@
 /**
  * malloc_checked - it allocates a memory for a pointer
  *
+ * @b: size of var
  * Return: pointer allocated
  */
 
