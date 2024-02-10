@@ -7,11 +7,10 @@
 */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned int long power = 1UL << index;
+	unsigned int long power = ~(1UL << index);
 
 	if (index > 63)
 		return (-1);
-	power ~= power;
 	*n &= power;
 	return (1);
 }
