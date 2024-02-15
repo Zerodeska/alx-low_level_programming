@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * append_text_to_file - it appends text from the user
+ * @filename: name of the file
+ * @text_contex: test to append
+ * Return: 1 when sucsess
+*/
 int append_text_to_file(const char *filename, char *text_content)
 {
 	int fp, wr, i = 0;
